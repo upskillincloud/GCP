@@ -1,0 +1,10 @@
+-
+    role_id: role/storage.objectAdmin
+    members:
+    - serviceAccount:sa-dtinstacart@proj-dtinstacart-dev-001.iam.gserviceaccount.com
+    - group:gcp-proj-dtinstacart-dev-001-edit@dollartree.com
+-
+    role_id: organization/959314094439/roles/cr_gcs_readonly_buckets
+    members:
+    - serviceAccount:sa-dtinstacart@proj-dtinstacart-dev-001.iam.gserviceaccount.com
+    - group:gcp-proj-dtinstacart-dev-001-edit@dollartree.com
